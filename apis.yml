@@ -1,8 +1,12 @@
 aid: successionmatching
 name: SuccessionMatching
-description: SuccessionMatching is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: SuccessionMatching is an online community platform that connects business buyers, sellers,
+  and succession planning professionals to facilitate ownership transitions of businesses and farms. The
+  platform uses a compatibility matching algorithm to pair buyers and sellers, offers customizable privacy
+  settings, commission-free sales for owners, educational resources on succession planning and business
+  valuation, and a formal succession planning program that guides owners through selling their business.
+  A Techstars-backed company operating a members-only web application, it currently exposes no public
+  developer or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/successionmatching/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +14,29 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://successionmatching.com/assets/images/logo-black.png
 tags:
 - Company
+- Succession Planning
+- Business Brokerage
+- Mergers and Acquisitions
+- Marketplace
+- Small Business
+- Buy and Sell
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +46,18 @@ maintainers:
 common:
 - type: Website
   url: https://successionmatching.com/
+- type: SignUp
+  url: https://app.successionmatching.com/auth/signup
+- type: Login
+  url: https://app.successionmatching.com/auth/login
+- type: TermsOfService
+  url: https://successionmatching.com/term-and-privacy.html
+- type: PrivacyPolicy
+  url: https://successionmatching.com/term-and-privacy.html
+- type: DomainSecurity
+  url: security/successionmatching-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
